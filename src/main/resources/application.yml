@@ -1,12 +1,12 @@
-spring:
-    datasource: card
-    username: root
-    password: Feagri@019
-    url: dbc:mysql://localhost:3306/card?allowPublicKeyRetrieval=true&rewriteBatchedStatements=true&useSSL=false&useUnicode=yes&characterEncoding=UTF-8&useLegacyDatetimeCode=true&createDatabaseIfNotExist=true&useTimezone=true&serverTimezone=UTC
-    driver-class-name: com.mysql.jdbc.Driver
-
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-      properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+#spring:
+#    datasource: card
+#    username: root
+#    password: Feagri@019
+#    url: dbc:mysql://localhost:3306/card?allowPublicKeyRetrieval=true&rewriteBatchedStatements=true&useSSL=false&useUnicode=yes&characterEncoding=UTF-8&useLegacyDatetimeCode=true&createDatabaseIfNotExist=true&useTimezone=true&serverTimezone=UTC
+#    driver-class-name: com.mysql.jdbc.Driver
+#
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect

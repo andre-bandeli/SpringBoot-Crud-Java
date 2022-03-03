@@ -6,5 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface CardRepository extends JpaRepository<Card, Integer> {
 
 
-    Card findByName(String name);
+    Card findByName(String nome);
 }

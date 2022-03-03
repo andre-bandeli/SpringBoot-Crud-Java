@@ -16,7 +16,7 @@ public class Card {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private int id;
     private Date data;
-    private String nome;
+    private String name;
     private String texto;
 
     public int getId() {
@@ -35,12 +35,12 @@ public class Card {
         this.data = data;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getTexto() {

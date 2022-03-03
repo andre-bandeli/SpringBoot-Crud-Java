@@ -43,7 +43,7 @@ public class CardService {
     public Card updateCard(Card card) {
         Card existCard = repository.findById(card.getId()).orElse(null);
         existCard.setData(card.getData(new Date()));
-        existCard.setNome(card.getNome());
+        existCard.setName(card.getName());
         existCard.setTexto(card.getTexto());
 
         return repository.save(existCard);
