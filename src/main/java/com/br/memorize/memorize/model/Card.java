@@ -1,13 +1,12 @@
-package com.br.memorize.memorize.Model;
+package com.br.memorize.memorize.model;
 
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.Date;
 
 @Entity
 @Table(name = "card")
-public class Card implements Serializable {
+public class Card {
 
 
     public Card() {
@@ -15,20 +14,20 @@ public class Card implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private long id;
+    private int id;
     private Date data;
     private String nome;
     private String texto;
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public Date getData() {
+    public Date getData(Date date) {
         return data;
     }
 
