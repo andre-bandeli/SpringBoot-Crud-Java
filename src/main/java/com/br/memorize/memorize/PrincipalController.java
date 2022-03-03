@@ -12,7 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.Date;
 import java.util.List;
 
-@Controller
+@RestController
 public class PrincipalController {
 
     @Autowired
